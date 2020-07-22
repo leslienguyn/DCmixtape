@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <title>hello</title>
+       
+        <script type="text/javascript" src="/Users/leslienguyen/Desktop/Projects/Portfolio2/indexJS.js"></script>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        
+        <link rel="stylesheet" href="index.css"/>
+    
+    </head>
+        <body style="background-color: #f7ce5f;">
+            <div class="container-fluid"> 
+                <div class="col-md-8 col-lg-6">
+                    <h1 class="hello" id="hi">Hi Daniel, I made you __________ :-)</h1>
+                    <h3 class="clickTxt">Click on it ---></h3>
+
+                    <div class="pagination">    
+                        <input id="dot-1" type="radio" name="dots"> 
+                        <label for="dot-1"></label> 
+                        <input id="dot-2" type="radio" name="dots">
+                        <label for="dot-2"></label> 
+                        <input id="dot-3" type="radio" name="dots" checked="checked">
+                        <label for="dot-3"></label> 
+                        <input id="dot-4" type="radio" name="dots">
+                        <label for="dot-4"></label> 
+                        <input id="dot-5" type="radio" name="dots">
+                        <label for="dot-5"></label> 
+                        <input id="dot-6" type="radio" name="dots">
+                        <label for="dot-6"></label> 
+                        <input id="dot-7" type="radio" name="dots">
+                        <label for="dot-7"></label> 
+                        <input id="dot-8" type="radio" name="dots">
+                        <label for="dot-8"></label>
+                        <div class="pacman"></div>
+                    </div>
+                </div>
+
+                <div class="col-md-8 col-lg-6">
+                    <img src="/marioblock.png" class="mario" alt="mario ? block" id="img2" onclick="changeImage()">
+                    <img class="cover" id ="cov">
+                </div>
+            </div>
+
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+            <script>
+                var covr = document.getElementById('cov');
+                function changeImage() {
+                    var image = document.getElementById('img2');
+                    var greet = document.getElementById("hi");
+                    if (image.src.match("marioblock")) 
+                    {
+                        image.src = "/final.png";
+                        image.style.width = "600px";
+                        image.style.height = "600px";
+                        image.style.marginTop = "-20px";
+                        image.style.marginLeft = "10px";
+                        image.style.cursor = "pointer";
+                        image.style.animation = "rotation 5s infinite linear";
+    
+
+                        greet.textContent = "Hi Daniel, I made you a playlist :-)";
+
+                        image.onclick = function() {
+                            window.location.href = 'https://open.spotify.com/playlist/3pPPCCDQTINPF5KpJQAlEu?si=QlwFwNIRRiSJPJJe_kJF8A';
+                        };
+                    } 
+                }
+            </script>
+        </body>
+</html>
