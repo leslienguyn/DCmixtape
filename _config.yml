@@ -14,7 +14,7 @@
         <link rel="stylesheet" href="index.css"/>
     
     </head>
-        <body style="background-color: #f7ce5f;">
+        <body>
             <div class="container-fluid"> 
                 <div class="col-md-8 col-lg-6">
                     <h1 class="hello" id="hi">Hi Daniel, I made you __________ :-)</h1>
