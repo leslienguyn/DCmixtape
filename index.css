@@ -41,10 +41,10 @@
 }
 
 .mario {
-    width: 750px;
-    height: 550px;
-    margin-top: -30px;
-    margin-left: -90px;
+    width: 525px;
+    height: 425px;
+    margin-top: -25px;
+    margin-left: -70px;
     z-index: 1;
     position: relative;
 }
@@ -173,3 +173,43 @@ input[id="dot-5"]:checked ~ .pacman {transform: translateX(calc(var(--ddim) + va
 input[id="dot-6"]:checked ~ .pacman {transform: translateX(calc(var(--ddim) + var(--rdim)*5));}
 input[id="dot-7"]:checked ~ .pacman {transform: translateX(calc(var(--ddim) + var(--rdim)*6));}
 input[id="dot-8"]:checked ~ .pacman {transform: translateX(calc(var(--ddim) + var(--rdim)*7));}
+
+
+@media (max-width: 576px) {
+    .body {
+        overflow: scroll;
+    }
+    
+    .mario {
+        width: 200px;
+        height: 100px;
+        padding-left: 30px;
+        margin-left: 50px;
+        margin-top: 50px;
+        padding-right: 30px;
+    }
+
+    .hello {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .body {
+        overflow: scroll;
+    }
+
+    .mario {
+        width: 350px;
+        height: 250px;
+        padding-left: 30px;
+        margin-left: 50px;
+        margin-top: 50px;
+        padding-right: 30px;
+    }
+
+    .hello {
+        font-size: 25px;
+    }
+}
