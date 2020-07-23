@@ -183,10 +183,8 @@ input[id="dot-8"]:checked ~ .pacman {transform: translateX(calc(var(--ddim) + va
     .mario {
         width: 200px;
         height: 100px;
-        padding-left: 30px;
         margin-left: 50px;
         margin-top: 50px;
-        padding-right: 30px;
     }
 
     .hello {
@@ -203,10 +201,8 @@ input[id="dot-8"]:checked ~ .pacman {transform: translateX(calc(var(--ddim) + va
     .mario {
         width: 350px;
         height: 250px;
-        padding-left: 30px;
         margin-left: 50px;
         margin-top: 50px;
-        padding-right: 30px;
     }
 
     .hello {
