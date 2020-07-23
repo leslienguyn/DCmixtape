@@ -41,10 +41,10 @@
 }
 
 .mario {
-    width: 525px;
-    height: 425px;
+    width: 550px;
+    height: 450px;
     margin-top: -25px;
-    margin-left: -70px;
+    margin-left: -50px;
     z-index: 1;
     position: relative;
 }
