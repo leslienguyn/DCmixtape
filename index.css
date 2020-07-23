@@ -180,25 +180,34 @@ input[id="dot-8"]:checked ~ .pacman {transform: translateX(calc(var(--ddim) + va
         margin: 0;
         padding: 0;
         border: none;
-        margin-left: -100px;
-        margin-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .mario {
         width: 200px;
         height: 100px;
-        margin-left: -30px;
-        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        content-align: center;
     }
 
     .hello {
-        font-size: 15px;
-        margin-top: 5px;
-        margin-left: -15px;
+        font-size: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
     }
     
     .clickTxt {
-        margin-left: -15px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+    .pacman {
+        margin-left: auto;
+        margin-right: auto;
 }
 
 
@@ -207,21 +216,34 @@ input[id="dot-8"]:checked ~ .pacman {transform: translateX(calc(var(--ddim) + va
         margin: 0;
         padding: 0;
         border: none;
-        margin-left: -100px;
-        margin-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .mario {
         width: 250px;
         height: 150px;
-        margin-left: -20px;
-        margin-top: 50px;
+         margin-left: auto;
+        margin-right: auto;
+        text-align: center;
     }
 
     .hello {
         font-size: 25px;
-        margin-left: -15px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
     }
     
+    .clickTxt {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
     
+    .pacman {
+        margin-left: auto;
+        margin-right: auto;
+        content-align: center;
+    }
 }
