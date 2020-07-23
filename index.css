@@ -192,7 +192,11 @@ input[id="dot-8"]:checked ~ .pacman {transform: translateX(calc(var(--ddim) + va
     .hello {
         font-size: 15px;
         margin-top: 5px;
+        margin-left: -15px;
     }
+    
+    .clickTxt {
+        margin-left: -15px;
 }
 
 
@@ -204,9 +208,9 @@ input[id="dot-8"]:checked ~ .pacman {transform: translateX(calc(var(--ddim) + va
     }
 
     .mario {
-        width: 350px;
-        height: 250px;
-        margin-left: 50px;
+        width: 250px;
+        height: 150px;
+        margin-left: 20px;
         margin-top: 50px;
     }
 
