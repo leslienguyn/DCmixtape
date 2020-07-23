@@ -177,7 +177,9 @@ input[id="dot-8"]:checked ~ .pacman {transform: translateX(calc(var(--ddim) + va
 
 @media (max-width: 576px) {
     .body {
-        overflow: scroll;
+        margin: 0;
+        padding: 0;
+        border: none;
     }
     
     .mario {
@@ -188,14 +190,17 @@ input[id="dot-8"]:checked ~ .pacman {transform: translateX(calc(var(--ddim) + va
     }
 
     .hello {
-        font-size: 20px;
+        font-size: 15px;
+        margin-top: 5px;
     }
 }
 
 
 @media (max-width: 768px) {
     .body {
-        overflow: scroll;
+        margin: 0;
+        padding: 0;
+        border: none;
     }
 
     .mario {
