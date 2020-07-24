@@ -224,7 +224,7 @@ input[id="dot-8"]:checked ~ .pacman {transform: translateX(calc(var(--ddim) + va
     .mario {
         width: 250px;
         height: 150px;
-         margin-left: auto;
+        margin-left: auto;
         margin-right: auto;
         text-align: center;
     }
@@ -234,6 +234,7 @@ input[id="dot-8"]:checked ~ .pacman {transform: translateX(calc(var(--ddim) + va
         margin-left: auto;
         margin-right: auto;
         text-align: center;
+        margin-top: 30px;
     }
     
     .clickTxt {
